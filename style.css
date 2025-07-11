@@ -91,3 +91,27 @@ nav li a {
 .section-text-content {
     max-width: 517px;
 }
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.trust-Secondary-bg {
+    border-radius: 24px;
+    padding: 50px 140px;
+    text-align: center;
+    margin: 126px 150px;
+    background-color: rgba(78, 71, 255, 0.1);
+
+}
+.trust-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-title {
+    font-size: 80px;
+    font-weight: 800;
+}
+.item-description {
+    font-size: 20px;
+    font-weight: 400;
+}
