@@ -129,3 +129,117 @@ main {
     border: 3px solid #F2EDED;
     border-radius: 14px;
 }
+.call-to-action-section-title {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+.call-to-action-section-description {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.Call-to-action {
+    padding: 70px 150px;
+    margin: 126px 150px;
+    text-align: center;
+    justify-content: space-around;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #f5f8ff;
+  padding: 50px;
+}
+.container-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
+  line-height: 1.2;
+}
+.right {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  font-weight: 600;
+  font-size: 14px;
+}
+input,
+textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  background: white;
+}
+
+textarea {
+  resize: none;
+}
+button {
+  background-color: #4b4bff;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #3636d6;
+}
+.footer {
+  padding: 40px 20px;
+}
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4b4bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.tagline {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #888;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.nav a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #4b4bff;
+}
