@@ -115,3 +115,17 @@ main {
     font-size: 20px;
     font-weight: 400;
 }
+.testimonial-section-title {
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+.testimonial-container {
+    display: flex;
+    gap: 24px;
+}
+.testimonial-content {
+    padding: 24px;
+    border: 3px solid #F2EDED;
+    border-radius: 14px;
+}
